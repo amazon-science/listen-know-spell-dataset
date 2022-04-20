@@ -8,10 +8,6 @@ pair of entities that are linked in the DBpedia knowledge graph. Finally, we use
 into speech examples. For generating each sentence, we randomly sample from a set of 9 en-US “Neural TTS” speakers in Amazon Polly (5 female, 4 male voices). We combine this TTS data  with all speech examples from the natural voice datasets [2, 3] that have entities identified using DBpedia Spotlight.
 
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
 ## License
 
 Dataset distribution under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). The released dataset originally comes from three public datasets, i.e. Mozilla’s Common Voice [2], TED-LIUM  [3] and Wikidata5M dataset [4]. We appreciate the authors of the three original public datasets.
