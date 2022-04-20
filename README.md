@@ -14,9 +14,7 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 ## License
 
-This project is licensed under the Apache-2.0 License.
-
-Dataset distribution under the CC BY-SA 4.0 license. The released dataset originally comes from three public datasets, i.e. Mozilla’s Common Voice [2], TED-LIUM  [3] and Wikidata5M dataset [4]. We appreciate the authors of the three original public datasets.
+Dataset distribution under the [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/). The released dataset originally comes from three public datasets, i.e. Mozilla’s Common Voice [2], TED-LIUM  [3] and Wikidata5M dataset [4]. We appreciate the authors of the three original public datasets.
 
 ## How to Download
 The dataset is stored at a public Amazon S3 bucket: ```listen-know-spell-dataset```. See more in Open Data on AWS.
