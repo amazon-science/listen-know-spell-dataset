@@ -1,5 +1,5 @@
 ## Listen Know Spell Dataset
-This dataset contains ~2 Million auido samples of data used in [1]. Speech utterances used in our experiments include data from Mozilla’s Common Voice [2] and TED-LIUM [3] datasets,  as well as TTS data generated from Wikidata5M dataset[4]. We consider speech examples containing at least 1 pair of related entities for this dataset generation. We found that there is a dearth of such speech examples in public datasets. For instance, the TED-LIUM test set has less than 50
+This dataset contains ~2M (paried audio-text) samples of data used in [1]. Speech utterances used in our experiments include data from Mozilla’s Common Voice [2] and TED-LIUM [3] datasets,  as well as TTS data generated from Wikidata5M dataset[4]. We consider speech examples containing at least 1 pair of related entities for this dataset generation. We found that there is a dearth of such speech examples in public datasets. For instance, the TED-LIUM test set has less than 50
 samples that mention a pair of related entities. We overcome this challenge by generating TTS data containing named entities
 using the publicly available Amazon Polly service [5]. First, we leverage the open-sourced Wikidata5M dataset [4] that provides a
 semantically annotated text corpus of Wikipedia descriptions. We extract ∼19M sentences by splitting the description paragraphs to
