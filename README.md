@@ -1,11 +1,10 @@
 ## Listen Know Spell Dataset
-This dataset contains ~2M (paried audio-text) samples of data used in [1]. Speech utterances used in our experiments include data from Mozilla’s Common Voice [2] and TED-LIUM [3] datasets,  as well as TTS data generated from Wikidata5M dataset[4]. We consider speech examples containing at least 1 pair of related entities for this dataset generation. We found that there is a dearth of such speech examples in public datasets. For instance, the TED-LIUM test set has less than 50
-samples that mention a pair of related entities. We overcome this challenge by generating TTS data containing named entities
-using the publicly available Amazon Polly service [5]. First, we leverage the open-sourced Wikidata5M dataset [4] that provides a
-semantically annotated text corpus of Wikipedia descriptions. We extract ∼19M sentences by splitting the description paragraphs to
-obtain short utterances. We then use DBpedia Spotlight [6] to annotate entities in each sentence, and drop sentences not having at least 1
-pair of entities that are linked in the DBpedia knowledge graph. Finally, we use Amazon Polly to convert ∼2M sentences thus filtered
-into speech examples. For generating each sentence, we randomly sample from a set of 9 en-US “Neural TTS” speakers in Amazon Polly (5 female, 4 male voices). We combine this TTS data  with all speech examples from the natural voice datasets [2, 3] that have entities identified using DBpedia Spotlight.
+This dataset contains ~2M (paried audio-text) samples of data used in [1]. Speech utterances used in our experiments include data from Mozilla’s Common Voice [2] and TED-LIUM [3] datasets,  as well as TTS data generated from Wikidata5M dataset[4]. We considered speech examples containing at least 1 pair of related entities for this dataset generation. We found that there is a dearth of such speech examples in public datasets. For instance, the TED-LIUM test set has less than 50 samples that mention a pair of related entities. We overcame this challenge by generating TTS data containing named entities
+using the publicly available Amazon Polly service [5]. First, we leveraged the open-sourced Wikidata5M dataset [4] that provides a
+semantically annotated text corpus of Wikipedia descriptions. We extracted ∼19M sentences by splitting the description paragraphs to
+obtain short utterances. We then used DBpedia Spotlight [6] to annotate entities in each sentence, and dropped sentences not having at least 1
+pair of entities that are linked in the DBpedia knowledge graph. Finally, we used Amazon Polly to convert ∼2M sentences thus filtered
+into speech examples. For generating each sentence, we randomly sampled from a set of 9 en-US “Neural TTS” speakers in Amazon Polly (5 female, 4 male voices). We combined this TTS data  with all speech examples from the natural voice datasets [2, 3] that have entities identified using DBpedia Spotlight.
 
 
 ## License
